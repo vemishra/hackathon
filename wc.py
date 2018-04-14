@@ -113,4 +113,4 @@ def gauge(labels=['LOW','MEDIUM','HIGH','VERY HIGH','EXTREME'], \
         fig.savefig(fname, dpi=200)
 
 
-gauge(fname="SentiMeter.png",labels=['Highly Negative','Negative','Positive','Highly Positive'],colors='plasma', arrow=4, title='Sentiment Index powered by azure') 
+#gauge(fname="SentiMeter.png",labels=['Highly Negative','Negative','Positive','Highly Positive'],colors='plasma', arrow=4, title='Sentiment Index powered by azure') 
